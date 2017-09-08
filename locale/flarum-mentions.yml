@@ -14,8 +14,8 @@ flarum-mentions:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_mentioned_text: "{username} הגיב להודעה שלך"  # Can be pluralized to agree with the number of users!
-      user_mentioned_text: "{username} כיתב אותך"
+      post_mentioned_text: "{username} הגיב לפוסט שלך"  # Can be pluralized to agree with the number of users!
+      user_mentioned_text: "{username} הזכיר אותך"
 
     # These translations are displayed beneath individual posts.
     post:
@@ -28,8 +28,8 @@ flarum-mentions:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_mentioned_label: מישהו הגיב לאחת ההודעות שלי
-      notify_user_mentioned_label: מישהו כיתב אותי בהודעה
+      notify_post_mentioned_label: מישהו הגיב לאחד הפוסטים שלי
+      notify_user_mentioned_label: מישהו הזכיר אותי בפוסט
 
     # These translations are used in the user profile page and profile popup.
     user:

@@ -15,8 +15,8 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: אל תעקוב
-      unignore_button: אל תתעלם
+      unfollow_button: בטל מעקב
+      unignore_button: בטל התעלמות
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -24,12 +24,12 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} שלח הודעה"
+      new_post_text: "{username} פרסם"
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: מעקב אוטומטי אחר נושאים שהגבתי להם
-      notify_new_post_label: מישהו שלח הודעה בנושא במערב
+      follow_after_reply_label: מעקב אוטומטי אחר דיונים שהגבתי להם
+      notify_new_post_label: מישהו פרסם בדיון שאני עוקב אחריו
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
@@ -37,11 +37,11 @@ flarum-subscriptions:
       following_button: => flarum-subscriptions.ref.following
       following_text: קבל התראות לכל התגובות.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: אל תקבל התראות לעולם. הסתר מרשימת הנושאים.
+      ignoring_text: אל תקבל התראות לעולם. הסתר מרשימת הדיונים.
       not_following_button: לא עוקב
-      not_following_text: "קבל התראות אך ורק @כמכותב"
-      notify_alert_tooltip: קבלת התראות פורום כאשר יש הודעות חדשות
-      notify_email_tooltip: קבלת הודעות דואר אלקטרוני כאשר יש הודעות חדשות
+      not_following_text: "קבל התראות אך ורק כשאני @מוזכר"
+      notify_alert_tooltip: קבלת התראות פורום כשיש פוסטים חדשים
+      notify_email_tooltip: קבל מייל כשיש פוסטים חדשים
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -49,6 +49,6 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    follow: מעקב
+    follow: עקוב
     following: עוקב
     ignoring: מתעלם

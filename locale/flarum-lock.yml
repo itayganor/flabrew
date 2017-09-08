@@ -9,7 +9,7 @@ flarum-lock:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      lock_discussions_label: ניעלת נושאים
+      lock_discussions_label: נעילת דיונים
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -29,9 +29,9 @@ flarum-lock:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_locked_text: "{username} נעל את הנושא."
-      discussion_unlocked_text: "{username} פתח את נעילת הנושא."
+      discussion_locked_text: "{username} נעל את הדיון."
+      discussion_unlocked_text: "{username} ביטל את נעילת הדיון."
 
     # These translations are used in the Settings page.
     settings:
-      notify_discussion_locked_label: מישהו נעל את הנושא שפתחתי
+      notify_discussion_locked_label: מישהו נעל את הדיון שפתחתי

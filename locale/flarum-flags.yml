@@ -9,8 +9,8 @@ flarum-flags:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      flag_posts_label: דיווח הודעות
-      view_flags_label: צפיה בדיווחי הודעות
+      flag_posts_label: פוסטים מדווחים
+      view_flags_label: צפה בפוסטים מדווחים
 
     # These translations are used in the Flags Settings modal dialog.
     settings:
@@ -22,11 +22,11 @@ flarum-flags:
 
     # These translations are used by the Flag Post modal dialog.
     flag_post:
-      confirmation_message: תודה על דיווח הודעה זו. מנהלינו יצפו בדיווח זה בקרוב.
+      confirmation_message: תודה שדיווחת על הפוסט. המנהלים שלנו יבדקו אותו.
       dismiss_button: => core.ref.okay
       reason_inappropriate_label: לא הולם
       reason_inappropriate_text: "הודעה זו פוגענית, מעליבה, או עוברת על <a>חוקי הקהילה</a>."
-      reason_off_topic_label: "Off-topic"
+      reason_off_topic_label: "לא קשור לנושא" #"Off-topic"
       reason_off_topic_text: הודעה זו איזה תואמת את הנושא ומיועדת למקום אחר
       reason_other_label: אחר
       reason_spam_label: זבל
@@ -43,9 +43,9 @@ flarum-flags:
 
     # These translations are used by the frame displayed around flagged posts.
     post:
-      dismiss_flag_button: דילוג דיווח
+      dismiss_flag_button: ביטול דיווח
       flagged_by_text: "דווח על ידי {username}"
-      flagged_by_with_reason_text: "דווח על ידי {username} עם סיבה {reason}"
+      flagged_by_with_reason_text: "דווח על ידי {username} בתור {reason}"
 
     # These translations are used by the post control buttons.
     post_controls:
@@ -57,5 +57,5 @@ flarum-flags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    flag_post: דיוו הודעה
-    flagged_posts: דיווח הודעות
+    flag_post: דיווח
+    flagged_posts: פוסטים מדווחים
