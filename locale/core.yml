@@ -246,7 +246,7 @@ core:
       groups_heading: קבוצות
       password_heading: => core.ref.password
       password_label: => core.ref.password
-      set_password_label: Set new password
+      set_password_label: הגדר סיסמא חדשה
       submit_button: => core.ref.save_changes
       title: ערוך משתמש
       username_heading: => core.ref.username
