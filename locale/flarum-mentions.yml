@@ -33,4 +33,4 @@ flarum-mentions:
 
     # These translations are used in the user profile page and profile popup.
     user:
-      mentions_link: כיתובים
+      mentions_link: אזכורים

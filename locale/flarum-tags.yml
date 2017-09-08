@@ -31,7 +31,7 @@ flarum-tags:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: עריכת תגיות
+      allow_edit_tags_label:F עריכת תגיות
       restrict_by_tag_heading: איסור לפי תגיות
       tag_discussions_label: תגיות הדיונים
 
@@ -69,7 +69,7 @@ flarum-tags:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: עריכת תגיות
+      edit_tags_button: ערוך תגיות
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:

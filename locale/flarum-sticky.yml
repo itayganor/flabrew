@@ -21,7 +21,7 @@ flarum-sticky:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       sticky_button: => flarum-sticky.ref.sticky
-      unsticky_button: הורדה מנעוץ
+      unsticky_button: בטל נעיצה
 
     # These translations are displayed between posts in the post stream.
     post_stream:
@@ -34,4 +34,4 @@ flarum-sticky:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    sticky: נעוץ
+    sticky: נעץ

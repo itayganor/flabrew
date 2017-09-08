@@ -28,7 +28,7 @@ flarum-subscriptions:
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: מעקב אוטומטי אחר דיונים שהגבתי להם
+      follow_after_reply_label: מעקב אוטומטי אחרי דיונים שהגבתי להם
       notify_new_post_label: מישהו פרסם בדיון שאני עוקב אחריו
 
     # These translations are used in the subscription menu displayed to the right of the post stream.

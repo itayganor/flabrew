@@ -327,7 +327,7 @@ core:
       now_link: עכשיו
       original_post_link: פוסט מקורי
       unread_text: "{count} לא נקראו"
-      viewing_text: "פוסט {index} מתוך {count}|פוסט{index} מתוך {count}"
+      viewing_text: "פוסט {index} מתוך {count}|פוסט {index} מתוך {count}"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
@@ -379,11 +379,11 @@ core:
       avatar_upload_tooltip: העלאת תמונה חדשה
       bio_placeholder: כתוב משהו על עצמך
       discussions_link: => core.ref.discussions
-      in_discussion_text: "בדיון {discussion}"
+      in_discussion_text: "ב{discussion}"
       joined_date_text: "הצטרף {ago}"
       online_text: מחובר
       posts_load_more_button: => core.ref.load_more
-      posts_link: פוסטיפ
+      posts_link: פוסטים
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).

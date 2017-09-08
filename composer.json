@@ -14,7 +14,7 @@
             "title": "השפה העברית",
             "icon": {
                 "image": "icon.png",
-                "backgroundColor": "#00247d",
+                "backgroundColor": "#212121",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
             }
