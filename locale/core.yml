@@ -61,7 +61,7 @@ core:
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: התאם אישית את מראה הפורום על ידי הוספת קוד CSS/LESS שיוכל לשנות את <a>עיצוב ברירת המחדל</a>." #"Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>."
+      customize_text: התאם אישית את מראה הפורום על ידי הוספת קוד CSS/LESS שיוכל לשנות את <a>עיצוב ברירת המחדל</a>. #"Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>."
       submit_button: => core.ref.save_changes
       title: עריכת CSS
 
