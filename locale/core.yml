@@ -9,7 +9,7 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "אם אתה מפתח, אתה יכול <a>לקרוא את המסמכים<a/> ולבנות הרחבות משלך."
+      developer_text: "אם אתה מפתח, אתה יכול <a>לקרוא את המסמכים</a> ולבנות הרחבות משלך."
       install_text: "בינתיים, ניתן לחפש הרחבות <a>באתר קהילת Flarum</a> ולהתקין אותן ידנית באמצעות Composer."
       temporary_text: "יום אחד בעתיד-הלא-רחוק-כל-כך, תוכל להוסיף כאן הרחבות לפורום שלך בקלות. אנו עובדים על אפשרות זו ממש ברגע זה!"
       title: הוסף הרחבה
@@ -22,7 +22,7 @@ core:
       custom_header_heading: חלק עליון מותאם אישית
       custom_header_text: "הוסף קוד HTML שיוצג בראש כל דף, מעל החלק העליון של Flarum."
       custom_styles_heading: סגנונות מותאמים אישית
-      custom_styles_text: התאם אישית את מראה הפורום על ידי הוספת קוד CSS/LESS שיוכל לשנות את עיצוב ברירת המחדל."
+      custom_styles_text: התאם אישית את מראה הפורום על ידי הוספת קוד CSS/LESS שיוכל לשנות את עיצוב ברירת המחדל.
       dark_mode_label: מצב חשוך
       edit_css_button: עריכת CSS
       edit_header_button: עריכת חלק עליון
@@ -54,7 +54,7 @@ core:
       contributing_text: "מעוניין לחפש תקלות ולתרום? קרא את <a>מסמכי התרומה</a>." #"Want to look for bugs and contribute? Read the <a>Contributing docs</a>."
       extension_text: "מעוניין בפיתוח הרחבות? קרא את <a>מסמכי ההרחבות</a>." #"Interested in developing extensions? Read the <a>Extension docs</a>."
       features_text: "יש לך רעיון לשיפור? ספר לנו על כך תחת <a>תגית התכונות</a>." #"Got an idea to improve a feature? Tell us about it under the <a>Features tag</a>."
-      support_text: "מצאת תקלה? דווח לנו בפורום שלנו, תחת <a>תגית התמיכה</a>" #"Found a bug? Please report it in our forum, under the <a>Support tag</a>."
+      support_text: "מצאת תקלה? דווח לנו בפורום שלנו, תחת <a>תגית התמיכה</a>." #"Found a bug? Please report it in our forum, under the <a>Support tag</a>."
       troubleshooting_text: "יש בעיות? עקוב אחר ההוראות ב<a>מסמכי פתרון הבעיות</a>." #"Having problems? Follow the instructions in the <a>Troubleshooting docs</a>."
       version_text: "תודה על שימושך בFlarum. גירסתך היא {version}."
       welcome_text: "ברוך הבא לגרסת הניסיון של Flarum!" # "Welcome to Flarum Beta!"
@@ -121,7 +121,7 @@ core:
       basics_button: מידע בסיסי
       basics_text: "ערוך את הכותרת, את השפה ועוד מידע בסיסי." #"Set your forum title, language, and other basic settings."
       dashboard_button: לוח בקרה
-      dashboard_text: הפורום שלך במבט חטוף.
+      dashboard_text: הפורום שלך במבט מהיר.
       email_button: => core.ref.email
       email_text: "ערוך את הגדרות המייל בפורום."
       extensions_button: הרחבות
