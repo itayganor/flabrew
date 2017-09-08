@@ -9,7 +9,7 @@ flarum-likes:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      like_posts_label: דירוג הודעות
+      like_posts_label: דירוג פוטסים
 
   # Translations in this namespace are used by the forum user interface.
   forum:

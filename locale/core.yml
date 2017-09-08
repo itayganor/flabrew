@@ -132,7 +132,7 @@ core:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       allow_renaming_label: עריכת שם
-      allow_post_editing_label: עריכת פוס
+      allow_post_editing_label: עריכת פוסט
       create_heading: כתיבה
       delete_discussions_forever_label: מחיקת דיונים לתמיד
       delete_discussions_label: מחיקת דיונים
