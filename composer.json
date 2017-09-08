@@ -1,14 +1,14 @@
 {
-    "name": "flarumeu/flarum-hebrew",
+    "name": "itayganor/flabrew",
     "type": "flarum-extension",
     "description": "תרגום רשמי לעברית.",
-    "homepage": "https://github.com/flarumeu/flarum-polski",
+    "homepage": "https://github.com/itayganor/flabrew",
     "keywords": ["locale"],
     "license": "MIT",
     "require": {
         "flarum/core": "^0.1.0-beta.7"
     },
-	
+
     "extra": {
         "flarum-extension": {
             "title": "השפה העברית",
