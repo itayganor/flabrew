@@ -50,17 +50,17 @@ flagrow-upload:
                 password: Password
                 region: Region
             disable-hotlink-protection:
-                title: ביטול הגנה hotlink 
+                title: hotlink ביטול הגנת
                 toggle: ביטול
             disable-download-logging:
-                title: ביטול logging של הורדות
+                title: הורדות logging ביטול
                 toggle: ביטול
 
         buttons:
             save: שמירת הגדרות
         help_texts:
             description: >
-                Set up uploading services and preferences.
+                הגדרות של שירותים והעלאות.
             mime_types: >
                 Please configure your mapping here. Each mime type
                 regular expression will be handled by a specific
@@ -71,12 +71,12 @@ flagrow-upload:
                 and height, in pixels. The resizing process keeps the
                 aspect ratio of the images.
             watermark: >
-                Choose whether images will have a watermark added during
-                upload. Watermarks are added to non-gifs based on your
-                preferences below.
+                בבחירת התמונות שיכילו את התמונה המוטמעת בזמן העלאתם.
+                תמונות מוטמעות יוספו אך ורק לתמונות ולא לקבצים GIF 
+                המוגדרים לפי ההגדרות מתחת.  
             disable-hotlink-protection: >
-                Hotlink protection prevents opening downloads from other sites.
-                Current method requires a csrf token and post id.
+                הגנת Hotlink אשר אינה מאפשרת פתיחת הורדות ממקורות חיצוניים.
+                השיטה הנוכחית דורשת csrf token ומשספר מזהה של הודעה.                
             disable-download-logging: >
                 Disable logging every download made by users of your forum. Keeping it
                 enabled allows you to view the number of downloads and other metrics
