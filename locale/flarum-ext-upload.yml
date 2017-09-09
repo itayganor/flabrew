@@ -1,0 +1,83 @@
+flagrow-upload:
+    forum:
+        buttons:
+            attach: צירוף קבצים
+        states:
+            loading: טוען
+            success: הצלחה
+            error: שגיאה
+    admin:
+        permissions:
+            upload_label: העלאת קבצים
+            download_label: הורדת קבצים
+        upload_methods:
+            local: מקומי
+            aws-s3: Amazon S3
+            imgur: Imgur
+            ovh-svfs: OVH SVFS
+        labels:
+            preferences:
+                title: הגדרות כלליות
+                max_file_size: משקל מקסימאלי (בקילובייטים)
+                mime_types: הגדרת סוג mime, העלאת מיפוי
+            resize:
+                title: שינוי גודל תמונה
+                toggle: שינוי גודל תמונות
+                max_width: רוחב מקסימאלי
+                max_height: גובה מקסימאלי
+            watermark:
+                title: הטמעת תמונות
+                toggle: הטמעת תמונות
+                position: מיקום
+                file: העלאת תמונה להטמעה
+            local:
+                title: הגדרות מיקום מקומי
+                cdn_url: כתובת URL התוכן (prefixes files)
+            imgur:
+                title: Imgur הגדרות תמונה
+                client_id: Imgur client ID
+            aws-s3:
+                title: AWS S3 הגדרות אחסון
+                key: Key
+                secret: Secret
+                bucket: Bucket
+                region: Region
+            ovh-svfs:
+                title: OVH SVFS הגדרות אחסון
+                container: Container
+                tenantid: Tenant ID
+                username: Username
+                password: Password
+                region: Region
+            disable-hotlink-protection:
+                title: ביטול הגנה hotlink 
+                toggle: ביטול
+            disable-download-logging:
+                title: ביטול logging של הורדות
+                toggle: ביטול
+
+        buttons:
+            save: שמירת הגדרות
+        help_texts:
+            description: >
+                Set up uploading services and preferences.
+            mime_types: >
+                Please configure your mapping here. Each mime type
+                regular expression will be handled by a specific
+                upload adapter.
+            resize: >
+                Choose whether you want to resize your images before
+                they get uploaded. You can choose a maximum width
+                and height, in pixels. The resizing process keeps the
+                aspect ratio of the images.
+            watermark: >
+                Choose whether images will have a watermark added during
+                upload. Watermarks are added to non-gifs based on your
+                preferences below.
+            disable-hotlink-protection: >
+                Hotlink protection prevents opening downloads from other sites.
+                Current method requires a csrf token and post id.
+            disable-download-logging: >
+                Disable logging every download made by users of your forum. Keeping it
+                enabled allows you to view the number of downloads and other metrics
+                in the nearby future.
