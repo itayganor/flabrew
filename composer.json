@@ -13,7 +13,7 @@
         "flarum-extension": {
             "title": "השפה העברית",
             "icon": {
-                "image": "icon.png",
+                "image": "logo.png",
                 "backgroundColor": "#212121",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
