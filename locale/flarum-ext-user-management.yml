@@ -1,4 +1,4 @@
-reflar-usermanagement:
+ reflar-usermanagement:
   admin:
     strike_perm_item: הוסף עבירה
     activate_perm_item: הפעל משתמשים ידנית
@@ -51,7 +51,7 @@ reflar-usermanagement:
         strike_button: צפה בעבירות
         activate_button: הפעל משתמש
         modal: "העבירות של {username}"
-        previous: "העבירות הקודמות של {username}"
+        previous: "העבירות של {username}"
     modal:
       post:
         title: הוסף עבירה למשתמש: {username}
