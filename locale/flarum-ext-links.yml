@@ -22,7 +22,7 @@ sijad-links:
 
     # These strings are used in the Links page.
     links:
-      about_text: Manage primary menu links.
+      about_text: ניהול תפריט קישורים משניים.
       create_button: => sijad-links.ref.create_link
       links: => sijad-links.ref.links
 
@@ -36,4 +36,4 @@ sijad-links:
     create_link: יצירת קישור
     links: קישורים
     title: כותרת
-    url: Url
+    url: קישור
