@@ -1,4 +1,4 @@
- reflar-usermanagement:
+reflar-usermanagement:
   admin:
     strike_perm_item: הוסף עבירה
     activate_perm_item: הפעל משתמשים ידנית
@@ -9,7 +9,7 @@
     modal:
       view:
         number: מספר
-        no_strikes: למשתמש אין עבירות שדווחו!
+        no_strikes: "למשתמש אין עבירות שדווחו!"
         content: פוסט
         actor: על ידי
         time: תאריך
@@ -22,7 +22,7 @@
       gender_label: הצג אפשרות לבחירת מין בהרשמה
       age_label: הצג אפשרות לבחירת גיל בהרשמה
       amount_label: מספר משתמשים לתצוגה בדף
-      recaptcha: התאם לשימוש ב-ReCaptcha
+      recaptcha: "התאם לשימוש ב-ReCaptcha"
       spam: הפעל את הגנת StopForumSpam
     page:
       activate: הפעל
@@ -54,13 +54,13 @@
         previous: "העבירות של {username}"
     modal:
       post:
-        title: הוסף עבירה למשתמש: {username}
+        title: "הוסף עבירה למשתמש: {username}"
         reason_placeholder: סיבת העבירה
         strike_reason: סיבה
         submit_button: הוסף עבירה
       view:
         number: מספר
-        no_strikes: למשתמש אין עבירות שדווחו!
+        no_strikes: "למשתמש אין עבירות שדווחו!"
         content: פוסט
         actor: על ידי
         time: תאריך
