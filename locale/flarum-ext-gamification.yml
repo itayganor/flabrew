@@ -1,0 +1,66 @@
+core:
+  forum:
+    index_sort:
+      hot_button: פופולריים
+
+reflar-gamification:
+  forum:
+    vote_title: הצג מי הצביע
+    nav:
+      name: דירוגים
+    ranking:
+      rank: מיקום
+      name: משתמש
+      amount: נקודות
+    notification:
+      upvote: "{username} נתן הצבעה חיובית לפוסט שלך"
+      downvote: "{username} נתן הצבעה שלילית לפוסט שלך"
+    user:
+      points: "נקודות: {points}"
+      rank: "{rank}"
+    modal:
+      title: הצבעות
+      upvotes_label: הצבעות חיוביות
+      downvotes_label: הצבעות שליליות
+  admin:
+    permissions:
+      vote_label: הצבעה לפוסטים
+      see_votes_label: צפייה בהצבעות של פוסטים
+      see_ranking_page: צפייה בעמוד הדרגות
+    nav:
+      desc: הצבעות לקהילת הפורומים שלך.
+    page:
+      rankings:
+        blocked:
+          placeholder: user1, user2, user3
+          title: משתמשים להתעלמות
+          help: משתמשים אלו לא יוצגו בעמוד הדרגות. יש להפריד את שמות המשתמש עם פסיק ואחריו רווח.
+        title: עמוד הדרגות
+        enable: אפשר תמונות מותאמות אישית
+        custom_image_1: תמונה למקום הראשון
+        custom_image_2: תמונה למקום השני
+        custom_image_3: תמונה למקום השלישי
+      votes:
+        points_title: תצוגת הנקודות
+        points_placeholder: "נקודות: "
+        color_holder: '#ffffff'
+        auto_upvote: הצבעה עצמית אוטומטית ברגע פרסום פוסט
+        title: הצבעות
+        vote_color: צבע סימון לאחר הצבעה
+        icon_name: אייקוני ההצבעה
+        icon_help: "הקלד כל אייקון של Font Awesome שבסופו יש <code>-up</code> ו<code>-down</code>. דוגמאות: arrow, thumbs, chevron" # "Input any Font-Awesome icon that is suffixed with -up and -down. Examples: arrow, thumbs, chevron"
+      save_settings: שמור הגדרות
+      convert:
+        button: המר לייקים להצבעות חיוביות
+        help: המר את הלייקים הקודמים שלך (flarum-ext-likes) להצבעות, וחשב את הפופולריות של כל הדיונים הנוכחיים. #  Convert your previous likes from flarum-ext-likes into upvotes, as well as calculate the hotness for all current discussions.
+        converting: הלייקים שלך עוברים כעת המרה. רענן את הדף עוד כמה דקות וראה אם התהליך הסתיים. (הזמן שיקח לתהליך תלוי בכמות הלייקים בקהילה שלך) # Your likes are now being converted. Refresh your site after a few minutes to see the process finished. (Conversion time might take a while depending on your total forum likes)
+        converted: "{number} לייקים הומרו בהצלחה" # "Successfully converted all {number} likes"
+      ranks:
+        title: דרגות
+        ranks: דרגות מותאמות אישית
+        number_title: כמה תגי דרגות להציג? #How many rank badges should be shown?
+        help:
+          color: '#ffffff'
+          help: "הכנס את כמות ההצבעות החיוביות הדרושות, את שם הדרגה ואת צבעה בפורמט הקסדצימלי." # "Input the required number of upvotes, the name of the rank, and the hex color of the rank"
+          points: נקודות
+          name: שם
