@@ -500,33 +500,33 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: כל הדיונים
-    change_email: שנה כתובת מייל
-    change_password: שנה סיסמא
-    confirm_password: אשר סיסמא
+    all_discussions: כל הנושאים
+    change_email: שינוי כתובת דואר אלקטרוני
+    change_password: שינוי סיסמא
+    confirm_password: אישור סיסמא
     confirmation_email_sent: שלחנו מייל אימות ל{email}. אם הוא לא מגיע בקרוב, בדוק בתיקיית הספאם שלך. # "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
     delete: מחק
     delete_forever: מחק לתמיד
-    discussions: דיונים
+    discussions: נושאים
     edit: ערוך
-    email: מייל
+    email: דואר אלקטרוני
     load_more: טען עוד
-    log_in: התחבר
-    log_out: התנתק
+    log_in: התחברות
+    log_out: התנתקות
     mark_all_as_read: סמן הכל כנקרא
     next_page: דף הבא
     notifications: התראות
     okay: אישור                                     # Referenced by flarum-tags.yml
     password: סיסמא
-    rename: שנה שם
-    reply: הגב                                 # Referenced by flarum-mentions.yml
-    reset_your_password: אפס את סיסמתך
+    rename: שינוי שם
+    reply: תגובה                                 # Referenced by flarum-mentions.yml
+    reset_your_password: איפוס את סיסמתך
     restore: שחזר
-    save_changes: שמור שינויים                   # Referenced by flarum-suspend.yml, flarum-tags.yml
+    save_changes: שמירת שינויים                   # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: הגדרות
     sign_up: הרשמה
     some_others: "{count} נוסף|{count} נוספים"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: צור דיון
+    start_a_discussion: יצירת דיון
     username: שם משתמש
     write_a_reply: כתוב תגובה...
     you: "את/ה"                                     # Referenced by flarum-likes.yml, flarum-mentions.yml

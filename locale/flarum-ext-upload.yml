@@ -1,7 +1,7 @@
 flagrow-upload:
     forum:
         buttons:
-            attach: צרף קבצים
+            attach: צירוף קבצים
         states:
             loading: טוען
             success: הצלחה
@@ -59,8 +59,8 @@ flagrow-upload:
                 title: הגדרות אחסון ב-OVH SVFS
                 container: Container
                 tenantid: Tenant ID
-                username: Username
-                password: Password
+                username: שם משתמש
+                password: סיסמה
                 region: Region
             disable-hotlink-protection:
                 title: ביטול הגנת Hotlink
@@ -70,10 +70,10 @@ flagrow-upload:
                 toggle: ביטול
 
         buttons:
-            save: שמור הגדרות
+            save: שמירת הגדרות
         help_texts:
             description: >
-                הגדר את שירותי ההעלאה והעדפותיהם.
+                הגדר את שירותי ההעלאה והעדפות.
             mime_types: >
                 הגדר את המיפוי שלך כאן. כל ביטוי רגולרי
                 (regular expression)

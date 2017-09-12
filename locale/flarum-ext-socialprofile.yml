@@ -3,11 +3,11 @@ davis-socialprofile:
     edit:
       edit: "עריכה"
       add: "הוספה"
-      headtitle: "ערוך כפתורים"
+      headtitle: "עריכת כפתורים"
       title: "שם"
       url: "קישור"
-      submit: "שמור"
-      delete: "מחיקה"
-      deletetitle: "מחיקת כפתור"
+      submit: "שמירה"
+      delete: "הסרה"
+      deletetitle: "הסרת כפתור"
   admin:
     test: "ניסיון"
