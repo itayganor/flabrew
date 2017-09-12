@@ -1,12 +1,25 @@
 flagrow-upload:
     forum:
         buttons:
-            attach: צירוף קבצים
+            attach: צרף קבצים
         states:
             loading: טוען
             success: הצלחה
             error: שגיאה
     admin:
+        templates:
+            image: תבנית ברירת המחדל של הורדת תמונה
+            image_description: >
+                מציג תמונה ממוזערת של התמונה המקורית ומעבד את ההורדה דרך PHP.
+                מאפשר לאסוף נתונים סטטיסטיים והפעלת הגנת Hotlink.
+            file: תבנית ברירת המחדל של הורדת קובץ
+            file_description: >
+                מציג את שם הקובץ וקצת מידע כללי. מעבד את ההורדה דרך
+                PHP, מאפשר לאסוף נתונים סטטיסטיים והפעלת הגנ Hotlink.
+            image-preview: תבנית תצוגה מקדימה של התמונה המלאה
+            image-preview_description: >
+                מציג את התמונה המלאה בשורה. ללא אפשרות הורדה, ללא איסוף נתונים סטטיסטיים
+                והתעלמות מהגנת Hotlink.
         permissions:
             upload_label: העלאת קבצים
             download_label: הורדת קבצים
@@ -18,66 +31,63 @@ flagrow-upload:
         labels:
             preferences:
                 title: הגדרות כלליות
-                max_file_size: משקל מקסימאלי (בקילובייטים)
+                max_file_size: משקל מקסימלי (ב-KB)
                 mime_types: הגדרת סוג mime, העלאת מיפוי
             resize:
                 title: שינוי גודל תמונה
                 toggle: שינוי גודל תמונות
-                max_width: רוחב מקסימאלי
-                max_height: גובה מקסימאלי
+                max_width: רוחב מקסימלי
+                max_height: גובה מקסימלי
             watermark:
-                title: הטמעת תמונות
-                toggle: הטמעת תמונות
-                position: מיקום
+                title: הוספת סימן מים לתמונות
+                toggle: הוסף סימן מים לתמונות
+                position: מיקום סימן המים
                 file: העלאת תמונה להטמעה
             local:
-                title: הגדרות מיקום מקומי
+                title: הגדרות אחסון מקומי
                 cdn_url: כתובת URL התוכן (prefixes files)
             imgur:
-                title: Imgur הגדרות תמונה
+                title: הגדרות אחסון ב-Imgur
                 client_id: Imgur client ID
             aws-s3:
-                title: AWS S3 הגדרות אחסון
+                title: הגדרות אחסון ב-AWS S3
                 key: Key
                 secret: Secret
                 bucket: Bucket
                 region: Region
             ovh-svfs:
-                title: OVH SVFS הגדרות אחסון
+                title: הגדרות אחסון ב-OVH SVFS
                 container: Container
                 tenantid: Tenant ID
                 username: Username
                 password: Password
                 region: Region
             disable-hotlink-protection:
-                title: hotlink ביטול הגנת
+                title: ביטול הגנת Hotlink
                 toggle: ביטול
             disable-download-logging:
-                title: הורדות logging ביטול
+                title: ביטול תיעוד הורדות
                 toggle: ביטול
 
         buttons:
             save: שמירת הגדרות
         help_texts:
             description: >
-                הגדרות של שירותים והעלאות.
+                הגדר את שירותי ההעלאה והעדפותיהם.
             mime_types: >
-                Please configure your mapping here. Each mime type
-                regular expression will be handled by a specific
-                upload adapter.
+                הגדר את המיפוי שלך כאן. כל ביטוי רגולרי
+                (regular expression)
+                יטופל על ידי מתאם העלאה ותבנית הורדה ספציפיים.
             resize: >
-                Choose whether you want to resize your images before
-                they get uploaded. You can choose a maximum width
-                and height, in pixels. The resizing process keeps the
-                aspect ratio of the images.
+                בחר האם לשנות את גודל התמונות לפני שהן מועלות. תוכל לבחור
+                גובה ורוחב מקסימליים, בפיקסלים. תהליך שינוי הגודל
+                שומר על יחד המימדים (גובה-רוחב) של התמונות.
             watermark: >
-                בבחירת התמונות שיכילו את התמונה המוטמעת בזמן העלאתם.
-                תמונות מוטמעות יוספו אך ורק לתמונות ולא לקבצים GIF 
-                המוגדרים לפי ההגדרות מתחת.  
+                בחר האם ברצונך להוסיף לתמונות סימן מים (watermark) במהלך ההעלאה.
+                סימן המים מתווסף לקבצים שאינם מסוג GIF לפי ההעדפות המוגדרות מטה.
             disable-hotlink-protection: >
-                הגנת Hotlink אשר אינה מאפשרת פתיחת הורדות ממקורות חיצוניים.
-                השיטה הנוכחית דורשת csrf token ומשספר מזהה של הודעה.                
+                הגנת Hotlink מונעת פתיחת הורדות מאתרים אחרים. השיטה
+                הנוכחית דורשת csrf token ו-post id.
             disable-download-logging: >
-                Disable logging every download made by users of your forum. Keeping it
-                enabled allows you to view the number of downloads and other metrics
-                in the nearby future.
+                בטל את תיעוד ההורדות של המשתמשים בפורום שלך. אם תשאיר את התיעוד מופעל,
+                תוכל לצפות במספר ההורדות של הקובץ ובמספר מדידות נוספות בעתיד הקרוב.
