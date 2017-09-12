@@ -423,6 +423,9 @@ samp {
 	margin: 0 8px 0 -8px;
 }
 
+.PostMention:first-child {margin-left: 3px; margin-right: 0;}
+.PostMention:before {margin-right: 0; margin-left: 5px;}
+
 /* Bazaar */
 .ExtensionsPage.Bazaar .container {
 	margin: 0;
@@ -476,3 +479,21 @@ button.Button.Button--primary.EditSocialButtons-save {
 	margin-left: 7px; margin-right: auto;
 }
 .social-settings>.fa-cog {border-left: 0; border-right: 1px solid white;}
+
+/* reflar/gamification */
+
+.SettingsPage .Ranks-number, .SettingsPage .Ranks-name, .SettingsPage .Ranks-color {float: right; margin: 5px 0 5px 5px;}
+.SettingsPage .Upload-label {margin-right: auto; margin-left: 15px;}
+.Post-Rank {margin-left: auto; margin-right: 10px;}
+
+/* wiwatsrt/flarum-ext-best-answer */
+.Post--bestAnswer .item-isBestAnswer {
+	float: left;
+}
+.Post--bestAnswer .item-isBestAnswer::before {
+	padding-right: 0;
+	padding-left: 4px;
+}
+.Post-footer .item-bestAnswerPost .item-bestAnswerButton a {
+	float: left;
+}
