@@ -70,7 +70,7 @@ flagrow-upload:
                 toggle: ביטול
 
         buttons:
-            save: שמירת הגדרות
+            save: שמור הגדרות
         help_texts:
             description: >
                 הגדר את שירותי ההעלאה והעדפותיהם.
