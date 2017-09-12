@@ -39,7 +39,7 @@ flarum-subscriptions:
       ignoring_button: => flarum-subscriptions.ref.ignoring
       ignoring_text: אל תקבל התראות לעולם. הסתר מרשימת הדיונים.
       not_following_button: לא עוקב
-      not_following_text: "קבל התראות אך ורק כשאני @מוזכר"
+      not_following_text: "קבל התראות אך ורק כשאני מוזכר"
       notify_alert_tooltip: קבלת התראות פורום כשיש פוסטים חדשים
       notify_email_tooltip: קבל מייל כשיש פוסטים חדשים
 
