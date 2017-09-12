@@ -403,24 +403,32 @@ samp {
 	padding-right: 13px; padding-left: 30px;
 }
 .Select-caret {
-	margin-left: auto; margin-right: -30px;
+	margin-left: auto; margin-right: -17px;
 }
+
 .TagSettingsModal-rangeInput input:first-child {
     margin-left: 5px;
     margin-right: 0;
 }
-
 .TagTile-lastDiscussion-title {
     margin-right: auto;
-    margin-left: 10px;    
+    margin-left: 10px;
 }
 
-// Bazaar
+.AlertManager {
+	left: auto;
+	right: 20px;
+}
+.Alert-controls {
+	margin: 0 8px 0 -8px;
+}
+
+/* Bazaar */
 .ExtensionsPage.Bazaar .container {
 	margin: 0;
 }
 
-// Links
+/* Links */
 .LinkItems,
 .MemberListPage .MemberList-list .MemberListItems {
 	padding-right: 150px; padding-left: 0;
@@ -435,13 +443,36 @@ samp {
     float: left;
 }
 
-// User Management
+/* User Management */
 .MemberListPage .MemberList-list .MemberListItems .MemberList li .MemberListItem-info0 .Button,
 .MemberListPage .MemberList-list .MemberListItems .MemberList li .MemberListItem-info1 .Button,
 .MemberListPage .MemberList-list .MemberListItems .MemberList li .MemberListItem-info .Button {
 	float: left; margin: 0;
 }
-
 .MemberListPage .MemberList-list .MemberListItems .MemberList li .MemberListItem-info > *[class^=MemberListItem-] i {
 	margin-left: 1ch;
 }
+
+/* flagrow/upload */
+.flagrow-upload-button input {
+	right: auto;
+	left: 0;
+}
+.UploadPage .MimeTypes {
+	float: right;
+	direction: ltr;
+}
+
+/* davis/flarum-ext-socialprofile */
+
+button.Button.Button--primary.EditSocialButtons-save {
+	float: left !important;
+}
+
+.form-group-social {direction: ltr;}
+.SocialFormControl.SocialTitle {direction: rtl;}
+.Socialurl {vertical-align: top;}
+.form-group-social .Button-caret {
+	margin-left: 7px; margin-right: auto;
+}
+.social-settings>.fa-cog {border-left: 0; border-right: 1px solid white;}
