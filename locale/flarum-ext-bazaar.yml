@@ -2,23 +2,23 @@ flagrow-bazaar:
     admin:
         loader:
             is_loading: מעבד..
-            error: אירעה תקלה. בדוק את עמוד ההיסטוריה ואת ה-Log של Flarum. אל תהסס לדווח לנו על כך. # An error occured. Check the History tab and your Flarum log for details. Don't be afraid to report it to us.
+            error: אירעה תקלה. בדוק את עמוד ההיסטוריה ואת ה-רישומים של Flarum. אל תהסס לדווח לנו על כך. # An error occured. Check the History tab and your Flarum log for details. Don't be afraid to report it to us.
             refresh: רענן דף
             report_issue: דווח על בעיה
         nav:
-            title: Bazaar
+            title: שוק הרחבות
             description: שוק ההרחבות.
         header:
             extensions: עיין בהרחבות
             tasks: היסטוריית משימות
         modal:
             settings:
-                title: Flagrow Bazaar
+                title: Flagrow שוק הרחבות של
                 field:
                     apiToken: API token
                     apiTokenDescription: ה-API TOKEN הזה נחוץ כדי לגשת לAPI של ההרחבות מבית Flagrow. אם כבר מוגדר, אתה מוכן! # This api token is required to access the Flagrow extension api. If already set, you're good to go!
             connect-bazaar:
-                title: התחבר
+                title: התחברות
                 description: >
                     חבר את פורום ה-Flarum שלך לחשבון פרטי באתר {host} כדי לקבל תכונות מתקדמות;
                     כולל לוח בקרה שמציג מידע על כל התקנות ה-Flarum שלך. אנו נרחיב
@@ -78,7 +78,7 @@ flagrow-bazaar:
                     lastmonth: בחודש האחרון
                     older: ישן יותר
         search:
-            placeholder: חפש הרחבות
+            placeholder: חיפוש הרחבות
             filter_installed: הצג רק הרחבות מותקנות
             filter_update_required: הצג רק הרחבות עם עדכון זמין
             filter_favorited: הצג רק הרחבות מועדפות
