@@ -412,7 +412,7 @@ core:
 
     # These translations are displayed as error messages.
     error:
-      generic_message: "אופס! משהו השתמש. נא לרענן את הדף ונסו שוב."
+      generic_message: "אופס! משהו השתבש. נא לרענן את הדף ונסו שוב."
       not_found_message: המקור המבוקש לא נמצא. #The requested resource was not found.
       permission_denied_message: אין לך גישה לעשות את זה. # You do not have permission to do that.
       rate_limit_exceeded_message: פעולותך מהירה מדי. נסו שוב בעוד מספר שניות. # You're going a little too quickly. Please try again in a few seconds.
