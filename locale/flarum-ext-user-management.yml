@@ -1,11 +1,11 @@
 reflar-usermanagement:
   admin:
-    strike_perm_item: הוסף עבירה
-    activate_perm_item: הפעל משתמשים ידנית
-    viewstrike_perm_item: צפה בעבירות המשתמש
+    strike_perm_item: הוספת עבירה
+    activate_perm_item: הפעלת משתמשים ידנית
+    viewstrike_perm_item: צפייה בעבירות המשתמש
     nav:
       title: רשימת משתמשים
-      desc: צפה ונהל את המשתמשים בקהילה
+      desc: צפייה וניהול של משתמשים בקהילה
     modal:
       view:
         number: מספר
@@ -15,7 +15,7 @@ reflar-usermanagement:
         time: תאריך
         reason: סיבה
         link: קישור
-        remove: מחיקה
+        remove: הסרה
         title : "העבירות של {username}"
       settings_title: הגדרות
       email_switch: בטל את האפשרות להירשם באמצעות מייל
@@ -25,7 +25,7 @@ reflar-usermanagement:
       recaptcha: "התאם לשימוש ב-ReCaptcha"
       spam: הפעל את הגנת StopForumSpam
     page:
-      activate: הפעל
+      activate: הפעלה
       online_text: מחובר
       settings: הגדרות
       list_title: משתמשים
@@ -48,7 +48,7 @@ reflar-usermanagement:
         success: נשמר בהצלחה.
       age: "גיל: {age}"
       controls:
-        strike_button: צפה בעבירות
+        strike_button: צפייה בעבירות
         activate_button: הפעל משתמש
         modal: "העבירות של {username}"
         previous: "העבירות של {username}"
@@ -57,7 +57,7 @@ reflar-usermanagement:
         title: "הוסף עבירה למשתמש: {username}"
         reason_placeholder: סיבת העבירה
         strike_reason: סיבה
-        submit_button: הוסף עבירה
+        submit_button: הוספת עבירה
       view:
         number: מספר
         no_strikes: "למשתמש אין עבירות שדווחו!"
@@ -66,4 +66,4 @@ reflar-usermanagement:
         time: תאריך
         reason: סיבה
         link: קישור
-        remove: מחיקה
+        remove: הסרה

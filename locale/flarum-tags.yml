@@ -69,7 +69,7 @@ flarum-tags:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: ערוך תגיות
+      edit_tags_button: עריכת תגיות
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -80,8 +80,8 @@ flarum-tags:
     # These translations are displayed between posts in the post stream.
     post_stream:
       added_tags_text: "{username} הוסיף את התגיות {tagsAdded}."
-      added_and_removed_tags_text: "{username} הוסיף את התגיות {tagsAdded} והסיר את התגיות {tagsRemoved}."
-      removed_tags_text: "{username} הסיר את התגיות {tagsRemoved}."
+      added_and_removed_tags_text: "התגית {tagsAdded} נוספה על ידי {username} והתגית {tagsRemoved} הוסרה."
+      removed_tags_text: "התגית {tagsRemoved} הוסרה על ידי {username}."
       tags_text: "{tags} תגית|{tags} תגיות"
 
   # Translations in this namespace are used by the forum and admin interfaces.

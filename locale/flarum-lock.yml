@@ -20,8 +20,8 @@ flarum-lock:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      lock_button: נעל
-      unlock_button: בטל נעילה
+      lock_button: נעילה
+      unlock_button: ביטול נעילה
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -34,4 +34,4 @@ flarum-lock:
 
     # These translations are used in the Settings page.
     settings:
-      notify_discussion_locked_label: מישהו נעל את הדיון שפתחתי
+      notify_discussion_locked_label: דיונך ננעל על ידי מישהו
