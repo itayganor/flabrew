@@ -2,27 +2,27 @@ flagrow-bazaar:
     admin:
         loader:
             is_loading: מעבד..
-            error: אירעה תקלה. בדוק את עמוד ההיסטוריה ואת ה-רישומים של Flarum. אל תהסס לדווח לנו על כך. # An error occured. Check the History tab and your Flarum log for details. Don't be afraid to report it to us.
+            error: אירעה שגיאה. בדוק את עמוד ההיסטוריה ואת ה-רישומים של .Flarum אל תהסס לדווח לנו על כך. # An error occured. Check the History tab and your Flarum log for details. Don't be afraid to report it to us .
             refresh: רענן דף
             report_issue: דווח על בעיה
         nav:
-            title: שוק הרחבות
-            description: שוק ההרחבות.
+            title: Bazaar
+            description: חנות ההרחבות.
         header:
             extensions: עיין בהרחבות
             tasks: היסטוריית משימות
         modal:
             settings:
-                title: Flagrow שוק הרחבות של
+                title: Flagrow חנות ההרחבות -
                 field:
                     apiToken: API token
-                    apiTokenDescription: ה-API TOKEN הזה נחוץ כדי לגשת לAPI של ההרחבות מבית Flagrow. אם כבר מוגדר, אתה מוכן! # This api token is required to access the Flagrow extension api. If already set, you're good to go!
+                    apiTokenDescription: ה- API TOKEN הזה דרוש בכדי לגשת לAPI של ההרחבות מבית .Flagrow אם כבר הוגדר, הכל מוכן! 	# This api token is required to access the Flagrow extension api. If already set, you're good to go!
             connect-bazaar:
                 title: התחברות
                 description: >
-                    חבר את פורום ה-Flarum שלך לחשבון פרטי באתר {host} כדי לקבל תכונות מתקדמות;
-                    כולל לוח בקרה שמציג מידע על כל התקנות ה-Flarum שלך. אנו נרחיב
-                    את התפקיד ונאפשר, לדוגמא, התראות כאשר הפורום מכיל הרחבות לא מעודכנות, או את היכולת
+                    חבר את פורום הFlarum שלך לחשבון פרטי באתר {host} בכדי לקבל תכונות מתקדמות;
+                    כולל לוח בקרה שמציג מידע על כל התקנות הFlarum שלך. אנו נרחיב
+                    את התפקוד ונאפשר, לדוגמא, התראות כאשר הפורום מכיל הרחבות לא מעודכנות, או את היכולת
                     לעדכן את כל התקנות ה-Flarum שלך במרוכז.
             requirements:
                 file-permissions:
@@ -39,20 +39,20 @@ flagrow-bazaar:
         page:
             button:
                 more: עוד
-                install: התקן
+                install: התקנה
                 uninstall: הסר התקנה
-                enable: הפעל
-                disable: השבת
-                update: עדכן
+                enable: הפעלה
+                disable: השבתה
+                update: עדכון
                 connect: חיבור
                 favorite_button: "הרחבה מועדפת"
-                remove_favorite_button: "הסר הרחבה מהמועדפים"
+                remove_favorite_button: "הסרת  הרחבה מהמועדפים"
             extension:
                 installed: ההרחבה מותקנת
                 enabled: ההרחבה מופעלת
                 vendor: מאת {vendor}
                 favorited: אחד מהמועדפים שלך
-                outdated: "ההרחבה אינה מעודכנת, אנא עדכן לגירסא {new}"
+                outdated: "ההרחבה אינה מעודכנת, נא לעדכן לגירסא {new}"
             task:
                 header:
                     status: מצב
@@ -66,19 +66,19 @@ flagrow-bazaar:
                     finished_at: הוספק ב-
                 status:
                     success: הצלחה
-                    exception: אירעה חריגה
+                    exception: אירעה שגיאה
                     working: בתהליכי עבודה
                     unknown: לא ידוע
                 command:
-                    install: התקן את {extension}
-                    update: עדכן את {extension}
-                    uninstall: הסר את התקנת {extension}
+                    install: התקנת {extension}
+                    update: עדכון של {extension}
+                    uninstall: הסרת התקנת {extension}
                 group:
                     today: היום
                     lastmonth: בחודש האחרון
                     older: ישן יותר
         search:
             placeholder: חיפוש הרחבות
-            filter_installed: הצג רק הרחבות מותקנות
-            filter_update_required: הצג רק הרחבות עם עדכון זמין
-            filter_favorited: הצג רק הרחבות מועדפות
+            filter_installed: הצגת הרחבות מותקנות
+            filter_update_required: הצגת הרחבות עם עדכון זמין
+            filter_favorited: הצגת הרחבות מועדפות

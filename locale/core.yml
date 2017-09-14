@@ -408,7 +408,7 @@ core:
 
     # These translations are used to modify usernames.
     username:
-      deleted_text: "[נחמק]"
+      deleted_text: "[הוסר]"
 
     # These translations are displayed as error messages.
     error:
