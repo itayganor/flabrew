@@ -10,7 +10,7 @@ reflar-usermanagement:
       view:
         number: מספר
         no_strikes: "למשתמש אין עבירות שדווחו!"
-        content: פוסט
+        content: הודעה
         actor: על ידי
         time: תאריך
         reason: סיבה
@@ -61,7 +61,7 @@ reflar-usermanagement:
       view:
         number: מספר
         no_strikes: "למשתמש אין עבירות שדווחו!"
-        content: פוסט
+        content: הודעה
         actor: על ידי
         time: תאריך
         reason: סיבה

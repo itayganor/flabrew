@@ -132,12 +132,12 @@ core:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       allow_renaming_label: עריכת שם
-      allow_post_editing_label: עריכת פוסט
+      allow_post_editing_label: עריכת הודעה
       create_heading: כתיבה
-      delete_discussions_forever_label: מחיקת דיונים לתמיד
-      delete_discussions_label: מחיקת דיונים
-      delete_posts_forever_label: מחיקת פוסטים לתמיד
-      edit_and_delete_posts_label: עריכת פוסטים ומחיקתם
+      delete_discussions_forever_label: הסרת דיונים לתמיד
+      delete_discussions_label: הסרת דיונים
+      delete_posts_forever_label: הסרת הודעות לתמיד
+      edit_and_delete_posts_label: עריכת הודעות והסרתן
       global_heading: גלובלי
       moderate_heading: ניהול
       new_group_button: קבוצה חדשה
@@ -207,7 +207,7 @@ core:
     # These translations are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: "לא שמרת את השינויים. האם ברצונך לוותר עליהם?"
-      post_link: "פוסט #{number} ב-{discussion}"
+      post_link: "הודעה #{number} ב-{discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
@@ -325,9 +325,9 @@ core:
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
       now_link: עכשיו
-      original_post_link: פוסט מקורי
+      original_post_link: הודעה מקורית
       unread_text: "{count} לא נקראו"
-      viewing_text: "פוסט {index} מתוך {count}|פוסט {index} מתוך {count}"
+      viewing_text: "הודעה {index} מתוך {count}|הודעה {index} מתוך {count}"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
@@ -390,7 +390,7 @@ core:
     user_controls:
       button: שליטה
       delete_button: => core.ref.delete
-      delete_confirmation: "האם ברצונך להסיר את המשתמש? כל הפוסטים של המשתמש יוסרו." #"Are you sure you want to delete this user? All of the user's posts will be deleted."
+      delete_confirmation: "האם ברצונך להסיר את המשתמש? כל הההודעות של המשתמש יוסרו." #"Are you sure you want to delete this user? All of the user's posts will be deleted."
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.

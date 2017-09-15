@@ -13,8 +13,8 @@ reflar-gamification:
       name: משתמש
       amount: נקודות
     notification:
-      upvote: "{username} נתן הצבעה חיובית לפוסט שלך"
-      downvote: "{username} נתן הצבעה שלילית לפוסט שלך"
+      upvote: "{username} נתן הצבעה חיובית להודעה שלך"
+      downvote: "{username} נתן הצבעה שלילית להודעה שלך"
     user:
       points: "נקודות: {points}"
       rank: "{rank}"
@@ -24,8 +24,8 @@ reflar-gamification:
       downvotes_label: הצבעות שליליות
   admin:
     permissions:
-      vote_label: הצבעה לפוסטים
-      see_votes_label: צפייה בהצבעות של פוסטים
+      vote_label: הצבעה להודעות
+      see_votes_label: צפייה בהצבעות של הודעות
       see_ranking_page: צפייה בעמוד הדרגות
     nav:
       desc: הצבעות לקהילת הפורומים שלך.
@@ -44,14 +44,14 @@ reflar-gamification:
         points_title: תצוגת הנקודות
         points_placeholder: "נקודות: "
         color_holder: '#ffffff'
-        auto_upvote: הצבעה עצמית אוטומטית ברגע פרסום פוסט
+        auto_upvote: הצבעה עצמית אוטומטית ברגע פרסום הודעה
         title: הצבעות
         vote_color: צבע סימון לאחר הצבעה
         icon_name: אייקוני ההצבעה
-        icon_help: "הקלד כל אייקון של Font Awesome שבסופו יש <code>-up</code> ו<code>-down</code>. דוגמאות: arrow, thumbs, chevron" # "Input any Font-Awesome icon that is suffixed with -up and -down. Examples: arrow, thumbs, chevron"
-      save_settings: שמור הגדרות
+        icon_help: "בהקלדת כל אייקון של Font Awesome שבסופו יש <code>-up</code> -ו<code>-down</code>. דוגמאות: arrow, thumbs, chevron" # "Input any Font-Awesome icon that is suffixed with -up and -down. Examples: arrow, thumbs, chevron"
+      save_settings: שמירת הגדרות
       convert:
-        button: המר לייקים להצבעות חיוביות
+        button: המרת לייקים להצבעות חיוביות
         help: המר את הלייקים הקודמים שלך (flarum-ext-likes) להצבעות, וחשב את הפופולריות של כל הדיונים הנוכחיים. #  Convert your previous likes from flarum-ext-likes into upvotes, as well as calculate the hotness for all current discussions.
         converting: הלייקים שלך עוברים כעת המרה. רענן את הדף עוד כמה דקות וראה אם התהליך הסתיים. (הזמן שיקח לתהליך תלוי בכמות הלייקים בקהילה שלך) # Your likes are now being converted. Refresh your site after a few minutes to see the process finished. (Conversion time might take a while depending on your total forum likes)
         converted: "{number} לייקים הומרו בהצלחה" # "Successfully converted all {number} likes"

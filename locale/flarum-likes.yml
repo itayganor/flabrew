@@ -9,7 +9,7 @@ flarum-likes:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      like_posts_label: דירוג פוסטים
+      like_posts_label: דירוג הודעות
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -17,7 +17,7 @@ flarum-likes:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_liked_text: "{username} אהב את הפוסט שלך"  # Can be pluralized to agree with the number of users!
+      post_liked_text: "{username} אהב את ההודעה שלך"  # Can be pluralized to agree with the number of users!
 
     # These translations are displayed beneath individual posts.
     post:
@@ -34,4 +34,4 @@ flarum-likes:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_liked_label: מישהו אהב את אחד הפוסטים שלי
+      notify_post_liked_label: מישהו אהב את אחת ההודעות שלי

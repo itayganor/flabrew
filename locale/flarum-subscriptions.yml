@@ -15,8 +15,8 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: בטל מעקב
-      unignore_button: בטל התעלמות
+      unfollow_button: ביטול מעקב
+      unignore_button: ביטול התעלמות
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -24,24 +24,24 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} פרסם"
+      new_post_text: "{username} פורסם על ידי"
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: מעקב אוטומטי אחרי דיונים שהגבתי להם
-      notify_new_post_label: מישהו פרסם בדיון שאני עוקב אחריו
+      follow_after_reply_label: מעקב אוטומטי אחרי דיונים שהגבתי בהם
+      notify_new_post_label: מישהו פרסם הודעה בדיון במעקב
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: קבל התראות לכל התגובות.
+      following_text: קבלת התראות לכל התגובות.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: אל תקבל התראות לעולם. הסתר מרשימת הדיונים.
-      not_following_button: לא עוקב
-      not_following_text: "קבל התראות אך ורק כשאני מוזכר"
-      notify_alert_tooltip: קבלת התראות פורום כשיש פוסטים חדשים
-      notify_email_tooltip: קבל מייל כשיש פוסטים חדשים
+      ignoring_text: לא לקבל התראות לעולם. הסתרה מרשימת הדיונים.
+      not_following_button: לא במעקב
+      not_following_text: "קבלת התראות אך ורק באיזכור"
+      notify_alert_tooltip: קבלת התראות פורום כשיש הודעות חדשות
+      notify_email_tooltip: קבלת לדואר האלקטרוני כשיש הודעותחדשות
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -49,6 +49,6 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    follow: עקוב
-    following: עוקב
-    ignoring: מתעלם
+    follow: מעקב
+    following: במעקב
+    ignoring: בהתעלמות
