@@ -1,7 +1,7 @@
 {
   "name": "flabrew/flabrew",
   "type": "flarum-extension",
-  "description": "תרגום רשמי לעברית.",
+  "description": "תרגום רשמי לעברית",
   "homepage": "https://github.com/itayganor/flabrew",
   "keywords": [
     "locale"
