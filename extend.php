@@ -7,4 +7,7 @@
  * file that was distributed with this source code.
  */
 
-return new Flarum\Extend\LanguagePack;
+return [
+    new Flarum\Extend\LanguagePack,
+    (new Flarum\Extend\Frontend('forum'))->css(__DIR__ . '/less/forum/extension.less'),
+];
