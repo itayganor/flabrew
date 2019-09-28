@@ -1,27 +1,34 @@
 {
-    "name": "flabrew/flabrew",
-    "type": "flarum-extension",
-    "description": "תרגום רשמי לעברית.",
-    "homepage": "https://github.com/itayganor/flabrew",
-    "keywords": ["locale"],
-    "license": "MIT",
-    "require": {
-        "flarum/core": "^0.1.0-beta.10"
+  "name": "flabrew/flabrew",
+  "type": "flarum-extension",
+  "description": "תרגום רשמי לעברית.",
+  "homepage": "https://github.com/itayganor/flabrew",
+  "keywords": [
+    "locale"
+  ],
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta.10"
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Flabrew",
+      "icon": {
+        "image": "logo.png",
+        "backgroundColor": "#2e53e7",
+        "backgroundSize": "cover",
+        "backgroundPosition": "center"
+      }
     },
-
-    "extra": {
-        "flarum-extension": {
-            "title": "Flabrew",
-            "icon": {
-                "image": "logo.png",
-                "backgroundColor": "#2e53e7",
-                "backgroundSize": "cover",
-                "backgroundPosition": "center"
-            }
-        },
-        "flarum-locale": {
-            "code": "he",
-            "title": "Hebrew"
-		}
+    "flarum-locale": {
+      "code": "he",
+      "title": "Hebrew"
     }
+  },
+  "authors": [
+    {
+      "name": "Itay Ganor",
+      "role": "Developer"
+    }
+  ]
 }
