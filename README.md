@@ -1,4 +1,4 @@
-![logo](http://i.imgur.com/cnFFSjK.png)
-### Translating Flarum to Hebrew
+![logo](https://i.imgur.com/PVTAWUy.png)
+## Translating Flarum to Hebrew
 
-> Work in progress..
+*Currently Supported version: **v0.1.0-beta.10***

@@ -6,15 +6,15 @@
     "keywords": ["locale"],
     "license": "MIT",
     "require": {
-        "flarum/core": "^0.1.0-beta.7"
+        "flarum/core": "^0.1.0-beta.10"
     },
 
     "extra": {
         "flarum-extension": {
-            "title": "השפה העברית",
+            "title": "Flabrew",
             "icon": {
                 "image": "logo.png",
-                "backgroundColor": "#212121",
+                "backgroundColor": "#2e53e7",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
             }
