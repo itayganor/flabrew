@@ -9,7 +9,7 @@ flarum-suspend:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      suspend_users_label: השעית משתמשים
+      suspend_users_label: השעיית משתמשים
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -17,12 +17,12 @@ flarum-suspend:
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
       indefinitely_label: השעיה לצמיתות
-      limited_time_label: השעיה לזמן מוגבל...
       limited_time_days_text: "ימים"
+      limited_time_label: השעיה לזמן מוגבל...
       not_suspended_label: לא מושעה
       status_heading: מצב השעיה
       submit_button: => core.ref.save_changes
-      title: "השעית {username}"
+      title: "השעיית {username}"
 
     # These translations are displayed as tooltips for user badges.
     user_badge:

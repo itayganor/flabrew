@@ -29,7 +29,7 @@ flarum-subscriptions:
     # These translations are used in the Settings page.
     settings:
       follow_after_reply_label: מעקב אוטומטי אחרי דיונים שהגבתי בהם
-      notify_new_post_label: מישהו פרסם הודעה בדיון במעקב
+      notify_new_post_label: מישהו פרסם הודעה בדיון אחריו אני עוקב
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
@@ -39,9 +39,9 @@ flarum-subscriptions:
       ignoring_button: => flarum-subscriptions.ref.ignoring
       ignoring_text: לא לקבל התראות לעולם. הסתרה מרשימת הדיונים.
       not_following_button: לא במעקב
-      not_following_text: "קבלת התראות אך ורק באיזכור"
-      notify_alert_tooltip: קבלת התראות פורום כשיש הודעות חדשות
-      notify_email_tooltip: קבלת לדואר האלקטרוני כשיש הודעותחדשות
+      not_following_text: "קבלת התראות אך ורק @באזכור"
+      notify_alert_tooltip: קבלת התראות פורום כשיש פוסטים חדשים
+      notify_email_tooltip: קבלת מייל כשיש פוסטים חדשים
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!

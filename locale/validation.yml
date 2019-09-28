@@ -17,6 +17,7 @@ validation:
   boolean: "שדה התכונה :attribute חייב להיות אמת או שקר."
   confirmed: "התכונה :attribute confirmation does not match."
   date: "התכונה :attribute is not a valid date."
+  date_equals: "The :attribute must be a date equal to :date."
   date_format: "התכונה :attribute does not match the format :other."
   different: "התכונות :attribute ו- :other חייבות להיות שונות."
   digits: "התכונה :attribute חייבת להכיל :digits ספרות."
@@ -24,9 +25,20 @@ validation:
   dimensions: "התכונה :attribute has invalid image dimensions."
   distinct: "התכונה :attribute field has a duplicate value."
   email: "התכונה :attribute חייבת להיות עם מייל אמיתי."
+  ends_with: "התכונה :חייבת להסתיים עם אחד מהבאים: :values"
   exists: "The selected :attribute is invalid."
   file: "התכונה :attribute חייבת להיות קובץ."
   filled: "התכונה :attribute field must have a value."
+  gt:
+    numeric: "The :attribute must be greater than :value."
+    file: "The :attribute must be greater than :value kilobytes."
+    string: "The :attribute must be greater than :value characters."
+    array: "The :attribute must have more than :value items."
+  gte:
+    numeric: "The :attribute must be greater than or equal :value."
+    file: "The :attribute must be greater than or equal :value kilobytes."
+    string: "The :attribute must be greater than or equal :value characters."
+    array: "The :attribute must have :value items or more."
   image: "התכונה :attribute חייבת להיות תמונה."
   in: "The selected :attribute is invalid."
   in_array: "התכונה :attribute field does not exist in :other."
@@ -35,6 +47,16 @@ validation:
   ipv4: "התכונה :attribute חייבת להכיל כתובת IPv4 תקינה."
   ipv6: "התכונה :attribute חייבת להכיל כתובת IPv6 תקינה."
   json: "התכונה :attribute חייבת להכיל כתובת JSON תקין."
+  lt:
+    numeric: "The :attribute must be less than :value."
+    file: "The :attribute must be less than :value kilobytes."
+    string: "The :attribute must be less than :value characters."
+    array: "The :attribute must have less than :value items."
+  lte:
+    numeric: "The :attribute must be less than or equal :value."
+    file: "The :attribute must be less than or equal :value kilobytes."
+    string: "The :attribute must be less than or equal :value characters."
+    array: "The :attribute must not have more than :value items."
   max:
     numeric: "התכונה :attribute לא יכולה להיות גדולה מ :max."
     file: "התכונה :attribute לא יכולה להיות גדולה מ :max קילובייט."
@@ -47,7 +69,8 @@ validation:
     file: "התכונה :attribute חייבת להיות לפחות :min קילובייט."
     string: "התכונה :attribute חייבת להיות לפחות :min תווים."
     array: "התכונה :attribute חייבת להכיל לפחות :min פריטים."
-  not_in: "התכונה הבנחרת :attribute שגויה."
+  not_in: "התכונה הנבחרת :attribute שגויה."
+  not_regex: "The :attribute format is invalid."
   numeric: "התכונה :attribute חייבת להיות מספר."
   present: "התכונה :attribute חייבת להופיע בשדה."
   regex: "התכונה :attribute בפורנט אינו תקין."
@@ -55,7 +78,7 @@ validation:
   required_if: "התכונה :attribute שדה חובה התנאי :other כשהערך :value."
   required_unless: "The :attribute field is required unless :other is in :values."
   required_with: "The :attribute field is required when :values is present."
-  required_with_all: "The :attribute field is required when :values is present."
+  required_with_all: "The :attribute field is required when :values are present."
   required_without: "The :attribute field is required when :values is not present."
   required_without_all: "The :attribute field is required when none of :values are present."
   same: "The :attribute and :other must match."
@@ -64,16 +87,18 @@ validation:
     file: "התכונה :attribute חייבת להיות :size קילובייט."
     string: "התכונה :attribute חייבת להכיל :size תווים."
     array: "התכונה :attribute חייבת להיות בגודל :size הפריטים."
+  starts_with: "The :attribute must start with one of the following: :values"
   string: "התכונה :attribute חייבת להיות אותיות."
   timezone: "התכונה :attribute חייבת להיות בריזור תקין."
   unique: "התכונה :attribute כבר תפוסה."
   uploaded: "התכונה :attribute לא עלתה לאתר."
   url: "התכונה :attribute בפורמט לא תקין."
+  uuid: "The :attribute must be a valid UUID."
 
   attributes:
     username: שם משתמש
     password: סיסמה
-    email: דואר אלקטרוני
+    email: כתובת מייל
     title: כותרת
     content: תוכן
     name_singular: שם יחיד

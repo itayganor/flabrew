@@ -9,8 +9,8 @@ flarum-flags:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      flag_posts_label: הודעות מדווחות
-      view_flags_label: צפייה בהודעות מדווחות
+      flag_posts_label: דיווח על פוסטים
+      view_flags_label: צפייה בפוסטים מדווחים
 
     # These translations are used in the Flags Settings modal dialog.
     settings:
@@ -22,22 +22,22 @@ flarum-flags:
 
     # These translations are used by the Flag Post modal dialog.
     flag_post:
-      confirmation_message: תודה שדיווחת על ההודעה. הצוות יעבור על ההודעה.
+      confirmation_message: תודה שדיווחת על הפוסט. הצוות יעבור עליו.
       dismiss_button: => core.ref.okay
       reason_inappropriate_label: לא הולם
-      reason_inappropriate_text: "הודעה שהיא פתוגענית, מעליבה, או עוברת על <a>חוקי הקהילה</a>."
-      reason_off_topic_label: "לא קשור לנושא" #"Off-topic"
-      reason_off_topic_text: הודעה זו אינה תואמת את הדיון ומיועדת למקום אחר
+      reason_inappropriate_text: "פוסט שהוא פוגעני, מעליב, או עובר על <a>חוקי הקהילה</a>."
+      reason_off_topic_label: "לא קשור לנושא"
+      reason_off_topic_text: פוסט זה אינו תואם את הדיון ואמור להימצא במקום אחר.
       reason_other_label: אחר
-      reason_spam_label: זבל
-      reason_spam_text: הודעה זו היא פרסומת
+      reason_spam_label: ספאם
+      reason_spam_text: פוסט זה הוא פרסומת.
       submit_button: => flarum-flags.ref.flag_post
       title: => flarum-flags.ref.flag_post
 
     # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
     flagged_posts:
       empty_text: אין דיווחים
-      item_text: "{username} בתוך<em>{discussion}</em>"
+      item_text: "{username} ב<em>{discussion}</em>"
       title: => flarum-flags.ref.flagged_posts
       tooltip: => flarum-flags.ref.flagged_posts
 
@@ -45,7 +45,7 @@ flarum-flags:
     post:
       dismiss_flag_button: ביטול דיווח
       flagged_by_text: "דווח על ידי {username}"
-      flagged_by_with_reason_text: "דווח על ידי {username} מסיבה {reason}"
+      flagged_by_with_reason_text: "דווח על ידי {username}, סיבה: {reason}"
 
     # These translations are used by the post control buttons.
     post_controls:
@@ -58,4 +58,4 @@ flarum-flags:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     flag_post: דיווח
-    flagged_posts: הודעות מדווחות
+    flagged_posts: פוסטים מדווחים

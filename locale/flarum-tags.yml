@@ -18,7 +18,9 @@ flarum-tags:
       delete_tag_confirmation: "האם ברצונך להסיר תגית זו? תגיות הדיונים לא יוסרו."
       description_label: תיאור
       hide_label: הסתרה מכל הדיונים
-      name_label:  => flarum-tags.ref.name
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
+      name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
       slug_label: מזהה
       submit_button: => core.ref.save_changes
@@ -33,7 +35,7 @@ flarum-tags:
     permissions:
       allow_edit_tags_label: עריכת תגיות
       restrict_by_tag_heading: הגבלה לפי תגית
-      tag_discussions_label: תגיות הדיונים
+      tag_discussions_label: תיוג דיונים
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
@@ -42,11 +44,11 @@ flarum-tags:
       required_primary_text: הכנס את הכמות המינימלית והמקסימלית של תגיות ראשיות שיכולות להיות לדיון.
       required_secondary_heading: מספר תגיות משניות
       required_secondary_text: הכנס את הכמות המינימלית והמקסימלית של תגיות משניות שיכולות להיות לדיון.
-      title: הגדרת תגיות
+      title: הגדרות תגיות
 
     # These translations are used in the Tags page.
     tags:
-      about_tags_text: "תגיות משמשות לסיווג דיונים. תגיות ראשיות הן כמו קטגוריות בפורומים: הן יכולות להיות מסודרות בהיררכיה דו שלבית. תגיות משניות הן חסרות היררכיה או סדר, ושימושיות לסידור משני בקטגוריות." # "Tags are used to categorize discussions. Primary tags are like traditional forum categories: they can be arranged in a two-level hierarchy. Secondary tags do not have hierarchy or order, and are useful for micro-categorization."
+      about_tags_text: "תגיות משמשות לסידור דיונים. תגיות ראשיות הן כמו קטגוריות בפורומים: הן יכולות להיות מסודרות בהיררכיה דו שלבית. תגיות משניות הן חסרות היררכיה או סדר, ושימושיות לסידור משני בקטגוריות."
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: תגיות ראשיות
       secondary_heading: תגיות משניות
@@ -57,9 +59,9 @@ flarum-tags:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "בחירת תגית משנית|בחירת {count} תגיות משניות"
-      choose_secondary_placeholder: "בחירת 1 או יותר תגיות|בחירת {count} תגיות נוספות"
-      edit_title: "כתיבת תגיות ל{title}"
+      choose_primary_placeholder: "בחירת תגית ראשית|בחירת {count} תגיות ראשיות"
+      choose_secondary_placeholder: "בחירת תגית אחת נוספת|בחירת {count} תגיות נוספות"
+      edit_title: "עריכת תגיות עבור {title}"
       submit_button: => core.ref.okay
       title: בחירת תגיות לדיון שלך
 
@@ -71,6 +73,9 @@ flarum-tags:
     discussion_controls:
       edit_tags_button: עריכת תגיות
 
+    header:
+      back_to_tags_tooltip: חזרה לרשימת התגיות
+
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       more_link: עוד...
@@ -79,10 +84,10 @@ flarum-tags:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} הוסיף את התגיות {tagsAdded}."
-      added_and_removed_tags_text: "התגית {tagsAdded} נוספה על ידי {username} והתגית {tagsRemoved} הוסרה."
-      removed_tags_text: "התגית {tagsRemoved} הוסרה על ידי {username}."
-      tags_text: "{tags} תגית|{tags} תגיות"
+      added_and_removed_tags_text: "{username} הוסיף את {tagsAdded} והסיר את {tagsRemoved}."
+      added_tags_text: "{username} הוסיף את {tagsAdded}."
+      removed_tags_text: "{username} הסיר את {tagsRemoved}."
+      tags_text: "התגית {tags}|התגיות {tags}"
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:

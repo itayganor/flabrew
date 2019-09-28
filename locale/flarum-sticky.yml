@@ -25,8 +25,8 @@ flarum-sticky:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_stickied_text: "{username} הנושא ננעץ על ידי."
-      discussion_unstickied_text: "{username} הנושא הורד מנעיצה על ידי."
+      discussion_stickied_text: "{username} הדיון ננעץ על ידי."
+      discussion_unstickied_text: "{username} הדיון הורד מנעיצה על ידי."
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
