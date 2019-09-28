@@ -11,5 +11,5 @@ use Flarum\Extend;
 
 return [
     new Extend\LanguagePack,
-    (new Extend\Frontend('forum'))->css(__DIR__ . '/less/forum/extension.less'),
+//    (new Extend\Frontend('forum'))->css(__DIR__ . '/less/forum/extension.less'),
 ];
